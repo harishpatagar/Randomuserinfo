@@ -1,0 +1,45 @@
+.card {
+    display: inline-block;
+    width: auto;
+    height: 250px;
+    margin-top: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex: 0.5;
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 1rem;
+  }
+  
+  @media screen and (min-width: 1000px) {
+    .card {
+      margin-left: 300px;
+    margin-right: 300px;
+    }
+  }
+
+
+
+  img {
+    border-radius: 50%;
+    border: 1px solid black;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+  }
+  .card1{
+    background: azure;
+    
+      margin: auto;
+      width: 50%;
+      border: 3px solid rgb(5, 206, 5);
+   
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 50px;
+  }
