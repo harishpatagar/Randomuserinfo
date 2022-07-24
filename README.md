@@ -2,7 +2,7 @@
 
 ## Components made:
 
-## CardSceliton-->for showing sceliton animation until user info is loaded\n
+## CardSkeliton-->for showing skeliton animation until user info is loaded\n
 
 ## Form-->for the form (username,password)\n
 
