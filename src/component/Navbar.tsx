@@ -14,7 +14,7 @@ islogin=true;
 
     function logout(){
       sessionStorage.removeItem("islogin");
-     history.push("/Randomuserlist")
+     history.push("/")
      window.location.reload();
 
      }

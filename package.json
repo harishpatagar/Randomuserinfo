@@ -2,7 +2,6 @@
   "name": "randomuser2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://harishpatagar.github.io/Randomuserlist",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
