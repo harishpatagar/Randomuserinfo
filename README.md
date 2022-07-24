@@ -2,11 +2,11 @@
 
 ## Components made:
 
-## CardSkeliton-->for showing skeliton animation until user info is loaded\n
+## CardSkeliton-->for showing skeliton animation until user info is loaded
 
-## Form-->for the form (username,password)\n
+## Form-->for the form (username,password)
 
-## Navbar-->contains logoname and after login gives logout button\n
+## Navbar-->contains logoname and after login gives logout button
 
 ## userlist-->list of user information
 
@@ -26,6 +26,10 @@ password:bar
 ## Home page:
 
 ![CHEESE](./public/userlist.png)
+
+## Showing skeleton while loading:
+
+![CHEESE](./public/skeleton.png)
 
 ## responsive page:
 
