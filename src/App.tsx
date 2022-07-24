@@ -1,17 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
 import "./index.css";
-import { NavLink, useHistory } from "react-router-dom";
 
 import Userlist from "./component/userlist";
 import Form from "./component/Form";
-import { Switch,Route,Router } from "react-router-dom";
+import { Switch,Route } from "react-router-dom";
 import Navbar from "./component/Navbar";
  
 const App = () => {
   
 
   return (
-    <>
+    <div >
+      
    {/* <Userlist/> */}
  <Navbar/>
 
@@ -21,11 +21,11 @@ const App = () => {
     <Route exact path="/home" component={Userlist}/>
       
 
-    <Route exact path="/"  component={Form}/>
+    <Route exact path="/Randomuserlist"  component={Form}/>
 
     </Switch>
     
-    </>
+    </div>
   );
 };
 

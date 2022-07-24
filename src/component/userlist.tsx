@@ -19,9 +19,9 @@ const Userlist = () =>{
 
   const showUsers = () => {
     
-
+//set loading true
     setIsLoading(true);
-    setTimeout(() => {
+    setTimeout(() => {           //req to api
       axios
         .get(
           "https://randomuser.me/api/?results=9"
@@ -36,7 +36,7 @@ const Userlist = () =>{
   };
 
   useEffect(() => {
-    setIsLoading(true);
+    setIsLoading(true);            //on starting setisloading true
     showUsers();
   }, []);
 
@@ -49,7 +49,6 @@ if(!isLoading){
     top: 0,
     behavior: 'smooth'
 })
-
 
 }
      
@@ -64,12 +63,9 @@ if(!isLoading){
 
         <div className="App">
      <SkeletonTheme  highlightColor="#e8ffd1"/>
-    
-    
-       
-    
+  
           {
-          isLoading ?
+          isLoading ?              //if isloading show skeleton
           <>
            <h3  style={{ color: "green"}} >Looding...  
             <div className="spinner-border ml-auto" role="status" aria-hidden="true"></div>
@@ -78,7 +74,7 @@ if(!isLoading){
          
 
           </>
-          :
+          :                        //else show list of users
           
             userList.map((user:any) => (
               <div className="card">
@@ -102,7 +98,7 @@ if(!isLoading){
       );
     
   }else{
-    return(
+    return(                         //if user not loged in try to accsess home page show error page
 <>
 
    <h3> pagenot found...</h3>

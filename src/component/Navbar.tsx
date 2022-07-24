@@ -14,12 +14,12 @@ islogin=true;
 
     function logout(){
       sessionStorage.removeItem("islogin");
-     history.push("/")
+     history.push("/Randomuserlist")
      window.location.reload();
 
      }
 
-if(islogin){
+if(islogin){              //if is user  log in true then returns navbar with logout btn
   return (
     <>
   <nav className="navbar navbar-light bg-warning">
@@ -28,8 +28,8 @@ if(islogin){
 </nav>
    </>
   );}
-  else{
-    return (
+  else{                              //if is user not log in true then returns navbar without logout btn
+    return (                
       <>
    
           

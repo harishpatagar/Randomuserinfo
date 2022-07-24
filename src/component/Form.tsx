@@ -4,9 +4,6 @@ import'bootstrap/dist/css/bootstrap.min.css';
 import { useHistory } from "react-router-dom";
 
 
-// import { toast } from "react-toastify";
-// import "react-toastify/dist/ReactToastify.css";
-
 const Form = () => {
     const history = useHistory();
 
