@@ -2,13 +2,13 @@
 
 ## Components made:
 
-# CardSceliton-->for showing sceliton animation until user info is loaded\n
+## CardSceliton-->for showing sceliton animation until user info is loaded\n
 
-# Form-->for the form (username,password)\n
+## Form-->for the form (username,password)\n
 
-# Navbar-->contains logoname and after login gives logout button\n
+## Navbar-->contains logoname and after login gives logout button\n
 
-# userlist-->list of user information
+## userlist-->list of user information
 
 ## Api used:
 
