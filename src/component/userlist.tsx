@@ -19,7 +19,6 @@ const Userlist = () =>{
 
   const showUsers = () => {
     
-    // window.scrollTo(0, 0); // values are x,y-offset
 
     setIsLoading(true);
     setTimeout(() => {
@@ -41,12 +40,6 @@ const Userlist = () =>{
     showUsers();
   }, []);
 
-
-  // window.addEventListener("scroll",function(ev){
-    
-  //     showUsers();
-
-  // });
   window.onscroll = function() {
     if (window.innerHeight + window.pageYOffset >= document.body.offsetHeight) {
       showUsers();
@@ -73,17 +66,16 @@ if(!isLoading){
      <SkeletonTheme  highlightColor="#e8ffd1"/>
     
     
-          {/* <div className="button" onClick={showUsers}>
-            Show Users
-          </div> */}
+       
     
           {
           isLoading ?
           <>
-          <CardSkeliton/><CardSkeliton/><CardSkeliton/><CardSkeliton/><CardSkeliton/><CardSkeliton/><CardSkeliton/><CardSkeliton/><CardSkeliton/>
-          <h3  style={{ color: "green"}} >Looding...  
+           <h3  style={{ color: "green"}} >Looding...  
             <div className="spinner-border ml-auto" role="status" aria-hidden="true"></div>
           </h3>
+          <CardSkeliton/><CardSkeliton/><CardSkeliton/><CardSkeliton/><CardSkeliton/><CardSkeliton/><CardSkeliton/><CardSkeliton/><CardSkeliton/>
+         
 
           </>
           :
