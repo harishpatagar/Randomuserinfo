@@ -18,3 +18,15 @@ https://randomuser.me/api/?results=9
 
 username:foo
 password:bar
+
+## Login page:
+
+![CHEESE](./public/Login.png)
+
+## Home page:
+
+![CHEESE](./public/userlist.png)
+
+## responsive page:
+
+![CHEESE](./public/responsive.png)
